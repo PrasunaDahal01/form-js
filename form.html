@@ -1,0 +1,64 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css" />
+  </head>
+  <body>
+    <h1 class="formdesign">Form</h1>
+    <form
+      class="designs"
+      action="/myaction.php"
+      name="myform"
+      onsubmit="return validateform()"
+      method="post"
+    >
+      <div class="inputdesign" id="name">
+        Name:
+        <input
+          type="name"
+          name="fname"
+          placeholder="Enter your name"
+          required
+        /><b>
+          <span class="formerror"></span>
+        </b>
+      </div>
+      <div class="inputdesign" id="email">
+        Email id:
+        <input
+          type="email"
+          name="femail"
+          placeholder="Enter your email"
+          required
+        />
+        <b><span class="formerror"></span></b>
+      </div>
+      <div class="inputdesign" id="pass">
+        Password:
+        <input
+          type="password"
+          name="fpass"
+          placeholder="Enter your password:"
+          required
+        />
+        <b><span class="formerror"></span></b>
+      </div>
+
+      <div class="inputdesign" id="cpass">
+        Confirm password:
+        <input
+          type="password"
+          name="fcpass"
+          placeholder="Re-enter your password"
+          required
+        />
+        <b><span class="formerror"></span> </b>
+      </div>
+      <input class="sbmit" type="submit" value="submit" />
+    </form>
+    <script src="/form.js"></script>
+  </body>
+</html>

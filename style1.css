@@ -1,0 +1,51 @@
+.formdesign {
+  padding: 6px 15px;
+  margin-bottom: 20px;
+  color: rgb(168, 85, 26);
+}
+.designs {
+  padding: 15px;
+  background-color: beige;
+  width: 75%;
+}
+
+.inputdesign {
+  font-size: 15px;
+  padding: 10px;
+}
+input {
+  padding: 8px;
+  width: 50%;
+  border-top: none;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-left: none;
+  border-right: none;
+  border-color: chocolate;
+  margin-left: 10px;
+}
+::placeholder {
+  padding-left: 20px;
+  color: rgb(93, 84, 84);
+}
+.formerror {
+  padding: 15px;
+  color: rgb(239, 23, 23);
+}
+.sbmit {
+  padding: 5px;
+  height: 30px;
+  width: 80px;
+  margin: 15px;
+  border: 1px solid;
+  border-radius: 15px;
+  background-color: rgb(198, 132, 85);
+  color: azure;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+.sbmit:hover {
+  background-color: beige;
+  color: rgb(176, 89, 27);
+}
